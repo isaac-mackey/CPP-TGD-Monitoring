@@ -1,0 +1,14 @@
+Rule 
+A
+if
+AddToCart(cart b, item c)@x
+Payment(cart b, price p)@y
+constraints
+x = y
+then
+Shipping(item c)@z1
+Receipt(cart b, price p)@z2
+constraints
+z1 <= y+10
+z2 = y
+end

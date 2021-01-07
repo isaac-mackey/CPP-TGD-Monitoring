@@ -1,0 +1,15 @@
+Rule 
+OrderAndShipThenPayAndReceipt
+if
+Order(user a, item b)@x
+Pay(user a, address addr, item b, price p)@y
+constraints
+x <= y
+x+3 >= y
+then
+Ship(user a, address addr, item b)@z
+Receipt(user a, price p)@w
+constraints
+x+10 >= z
+y+15 >= w
+end

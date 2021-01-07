@@ -1,0 +1,8 @@
+process,AddToCart,Alice,c0,laptop,0
+process,AddToCart,Bob,c0,ipad,2
+process,Payment,Alice,c0,300,3
+process,Payment,Bob,c1,800,3
+process,Shipping,Bob,ipad,8
+process,Shipping,Alice,laptop,10
+process,Receipt,Bob,c1,800,13
+process,Receipt,Alice,c2,300,21

@@ -1,0 +1,12 @@
+Rule 
+1
+if
+Order(user a, item b)@x
+Pay(user a, address addr, item b, price p)@y
+constraints
+x+10 >= y
+then
+Ship(user a, address addr, item b)@z
+constraints
+x+20 >= z
+end

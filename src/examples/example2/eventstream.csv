@@ -1,0 +1,7 @@
+Process,Order,Alice,item1,40,0
+Process,Payment,Alice,40,123 Main Street,4
+Process,Ship,Alice,item1,123 Main Street,8
+Process,Receipt,Alice,40,10
+Process,Order,Bob,item2,50,110
+Process,Payment,Bob,30,111 Westlake Ave,114
+Process,Ship,Bob,item2,123 Main Street,118

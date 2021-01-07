@@ -1,0 +1,8 @@
+process,Order,Alice,laptop,0
+process,Order,Bob,ipad,2
+process,Pay,Alice,111 Main Street,laptop,300,3
+process,Pay,Bob,444 Westlake Ave,ipad,800,3
+process,Ship,Bob,444 Westlake Ave,ipad,8
+process,Ship,Alice,111 Main Street,laptop,10
+process,Receipt,Bob,800,13
+process,Receipt,Alice,300,21
